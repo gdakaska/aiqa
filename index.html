@@ -1,0 +1,383 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css"/>
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+    <title>AIQA Technologies - AI powered QA</title>
+    <meta name="description" content="AI powered QA">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css"/>
+
+    <!--  Favicons  -->
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style type="text/css">
+        #map {
+            width: 750px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-light" uk-navbar
+         style="position: relative; z-index: 980; background-color: black;">
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src="./assets/sygnet-light.svg" class="uk-margin-left uk-margin-small-right" alt="" width="30px">
+                <span class="" style="color: #e6e7e7">AIQA Technologies</span>
+            </a>
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#about" uk-scroll>About</a>
+                </li>
+                <li>
+                    <a href="./documentation.html">Documentation</a>
+                </li>
+                <li>
+                    <a href="#partners" uk-scroll>Partners</a>
+                </li>
+                <li>
+                    <a href="#team" uk-scroll>Team</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">Polski</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Polski</a></li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<!-- Banner -->
+<div class="uk-height-large uk-background-cover uk-light uk-flex"
+     style="background-image: url('./assets/ai-bg.png');">
+    <div class="uk-width-4-5 uk-margin-auto uk-margin-auto-vertical">
+        <h1 class="">Boost your development <br> with AI powered QA</h1>
+        <a class="uk-button uk-button-default" href="#about"
+           style="-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;" uk-scroll>Read more</a>
+    </div>
+</div>
+<div id="about" class="">
+    <div class="uk-margin-xlarge-left uk-margin-large-top">
+        <span>Explore AIQA:</span>
+        <a href="" class="uk-margin-left">Business partners</a>
+        <a href="" class="uk-margin-left">Our team</a>
+        <a href="" class="uk-margin-left">Documentation</a>
+    </div>
+    <div class="uk-padding-large uk-margin-large-top uk-grid-large" uk-grid>
+        <div class="uk-width-1-2@m">
+            <iframe width="100%" style="min-height: 400px;" src="https://youtube.com/embed/-ojJ8KE8yXo">
+            </iframe>
+        </div>
+        <div class="uk-width-1-2@m">
+            <h3 class="uk-h3">AIQA - AI powered QA</h3>
+            <p>Our mission is to significantly reduce time spent on automated test run. <br>
+                We achieve that by using a bunch of advaced tool along with Artificial Intelligence.</p>
+            <p>The solution we provide is dedicated to large, web-driven projects that already use automated tests.</p>
+            <p class="uk-margin-xlarge-top uk-text-small">Check out how continuous integration can get</p>
+            <a class="app-button uk-margin-top uk-button" href="contact.html"
+               style="-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;">Contact us
+            </a>
+        </div>
+        <div class="uk-align-center uk-margin-xlarge-top">
+            <h2 class="uk-align-center uk-text-center">AIQA. Quality, security & speed.
+            </h2>
+            <h3 class="uk-text-lead uk-text-center" class="">
+                AIQA
+            </h3>
+        </div>
+        <div class="uk-padding-large">
+
+            <div class="uk-width-1-1 uk-margin-left uk-margin-large-bottom uk-margin-right" uk-grid>
+                <div class="uk-width-1-3">
+                    <img src="./assets/language.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>Cross-language for WEB </span>
+                    <p class="uk-text-small">Provides a solution that can be adjusted to all kind of WEB driven
+                        applications</p>
+                </div>
+                <div class="uk-width-1-3">
+                    <img src="./assets/hide.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>Source code invisibility</span>
+                    <p class="uk-text-small">Adapts tests without analyzing the source code of your product</p>
+                </div>
+                <div class="uk-width-1-3">
+                    <img src="./assets/hourglass.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>Quick setup</span>
+                    <p class="uk-text-small"></p>
+                </div>
+            </div>
+            <div class="uk-width-1-1 uk-margin-left uk-margin-right" uk-grid>
+                <div class="uk-width-1-3">
+                    <img src="./assets/tools.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>Cross-language </span>
+                    <p class="uk-text-small">AIQA provides a solution that can be adjusted to all kind of WEB driven
+                        applications</p>
+                </div>
+                <div class="uk-width-1-3">
+                    <img src="./assets/locked.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>High security level</span>
+                    <p class="uk-text-small">AIQA does not check the source code itself, it only decides which tests
+                        should
+                        be run</p>
+                </div>
+                <div class="uk-width-1-3">
+                    <img src="./assets/badge-with-two-ribbons.svg" class="uk-margin-right" width="40px" alt="">
+                    <span>Success guarantee</span>
+                    <p class="uk-text-small">You can start using AIQA at any time you want. We only need a buch of
+                        automated
+                        test to start off. </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uk-padding" style="background-color: #fafafa;">
+        <div class="uk-grid-large uk-margin-large-top" uk-grid>
+            <div class="uk-width-1-2@s uk-text-right">
+                <h3 class=" uk-margin-xlarge-left">AIQA - quick setup</h3>
+                <img src="./assets/steps/steps.png" alt="" width="600px">
+                <p class="uk-margin-xlarge-left">
+                    1. ddd
+                </p>
+                <p class=" uk-margin-xlarge-left">
+
+                </p>
+            </div>
+            <div class="uk-width-1-2@s">
+                <img class="uk-align-right" src="./assets/laptop.png" width="" height="" alt=""
+                     style="margin-right: -50px;">
+            </div>
+        </div>
+    </div>
+    <div class="uk-margin-xlarge-top">
+        <div class="" uk-grid>
+            <div class="uk-width-1-2@s uk-margin-remove-right">
+                <img src="./assets/ai.png" width="80%" height="" alt="">
+            </div>
+            <div class="uk-width-1-2@s">
+                <h3 class="uk-margin-right">The power of Artificial Intelligence</h3>
+                <p class="uk-margin-right">
+                    AIQA adjusts algorithms based on powerfull tool - Artificial Intelligence.
+                </p>
+                <p class="uk-margin-right">
+                    For the processes we use AWS - Amazon Web Services
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="uk-margin-large-top uk-padding" style="background-color: #fafafa;">
+        <div class="uk-grid-large" uk-grid>
+            <div class="uk-width-1-2@s uk-text-right">
+                <h3 class=" uk-margin-xlarge-left uk-margin-large-top">Clear statistics</h3>
+                <p class=" uk-margin-xlarge-left">
+                    At every moment of the development process AIQA provides clear statistics about the
+                    progress.
+                </p>
+                <p class=" uk-margin-xlarge-left">
+                    Generate and export statistic for inegration report.
+                </p>
+            </div>
+            <div class="uk-width-1-2@s">
+                <img style="uk-margin-left" src="./assets/statistics.png" width="50%" height="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<div style="height: 150px;"></div>
+<!-- Partners section -->
+<div id="partners" class="uk-container">
+    <div class="uk-padding-large" style="">
+        <h3 class=" uk-text-center">
+            They already use AIQA
+        </h3>
+        <div class="uk-child-width-1-6" style="" uk-grid>
+            <div class="uk-text-center">
+                <img src="./assets/clients/edge.png" alt="">
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/clients/jobllegro.png" alt="">
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/clients/kidos.png" alt="">
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/clients/universality.png" alt="" width="">
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/clients/saule.png">
+            </div>
+            <div class="">
+                <img src="./assets/clients/sensdx.png">
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/clients/pixbloks.png">
+            </div>
+            <div class="uk-text-center">
+                <h5>Busy Boss</h5>
+            </div>
+            <div class="uk-text-center">
+                <h5>Aida</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Quotes -->
+<div class="uk-child-width-1-3@m uk-padding-large" style="background-color: #f8f8f8; display: none;" uk-grid>
+    <div>
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-3 uk-text-right">
+                <img class="" src="./assets/avatar-jobllegro.png" alt="" width="80px">
+            </div>
+            <div class="uk-width-2-3">
+                <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Jobllegro</span></h5>
+                <q class="uk-text-small">The build run for our project decreased from 10 min to 0.5
+                    min with selected testing</q>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-3 uk-text-right">
+                <img class="" src="./assets/avatar-aida.png" alt="" width="80px">
+            </div>
+            <div class="uk-width-2-3">
+                <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Aida</span></h5>
+                <q class="uk-text-small">Interestingly, we did not lose test precision (...) despite significant
+                    reduction in run</q>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="uk-grid-small" uk-grid>
+            <div class="uk-width-1-3 uk-text-right">
+                <img class="" src="./assets/avatar-kidos.png" alt="" width="80px">
+            </div>
+            <div class="uk-width-2-3">
+                <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Kidos</span></h5>
+                <q class="uk-text-small">Simple but powerfull tool</q>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Team section -->
+<div id="team" class="uk-container" style="">
+    <div class="uk-padding-large">
+        <h3 class="uk-margin-large-bottom uk-text-center">
+            Meet our team
+        </h3>
+        <div class="uk-center uk-child-width-1-5 uk-margin-medium-bottom" uk-grid>
+            <div class="uk-text-center">
+                <img class="uk-border-circle" src="./assets/gajdaw.jpg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Włodzimierz Gajda</span><br>
+                    CEO</h5>
+            </div>
+            <div class="uk-text-center">
+                <img class="uk-border-circle" src="./assets/piotrek-pietras.jpeg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Piotr Pietras</span><br>
+                    Managing Director</h5>
+            </div>
+            <div class="uk-text-center">
+                <img class="uk-border-circle" src="./assets/bartosz.jpg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Bartosz Ciach</span><br>
+                    Co-Founder & Software Developer</h5>
+            </div>
+
+            <div class="uk-text-center">
+                <img src="./assets/user-icon.svg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Bogdan Derdziński</span><br>
+                    ...</h5>
+            </div>
+
+            <div class="uk-text-center">
+                <img src="./assets/user-icon.svg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Krzysztof Kusiak</span><br>
+                    ...</h5>
+            </div>
+        </div>
+        <div class=" uk-center uk-child-width-1-4 uk-margin-medium-bottom"
+             style="margin: 0 auto;" uk-grid>
+            <div class="uk-text-center">
+                <img src="./assets/kamil.png" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Kamil Wrzyszcz</span><br>
+                    AI Specialist</h5>
+            </div>
+
+            <div class="uk-text-center">
+                <img src="./assets/pawel.png" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Paweł Chmielewski</span><br>
+                    Back-End Developer</h5>
+            </div>
+            <div class="uk-text-center">
+                <img src="./assets/kasia-1.png" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Katarzyna Malec</span><br>
+                    UX & QA</h5>
+            </div>
+            <div class="uk-text-center">
+                <img class="uk-border-circle" src="./assets/dawid.jpg" alt="" width="120px">
+                <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Dawid Bartosz</span><br>
+                    Front-End Developer</h5>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="uk-container"></div>
+
+<div class="uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top" style="height: 300px;" uk-grid>
+
+    <div class="uk-width-auto@l">
+        <div id="map" class="" style="height: 300px;"></div>
+    </div>
+    <div class="uk-width-expand@l uk-light" style="height: 300px;background-color: black;">
+        <div style="height: 250px;">
+            <img src="./assets/logo-full-white.svg" class="uk-margin-large-top uk-margin-large-left" alt=""
+                 width="200px">
+            <div class="uk-margin-left uk-margin-top">
+
+                <img src="./assets/location.svg" alt="" width="30px">
+                <span class="uk-text-small">Postepu 14B, 02-676 Warszawa</span>
+            </div>
+        </div>
+        <p class="uk-text-small uk-margin-left">Copyright © 2019 AIQA Technologies. All rights reserved.</p>
+    </div>
+</div>
+<div class="" style="height: 50px; background-color: #ffffff;">
+    <img class="uk-align-center uk-margin-remove-bottom" src="assets/footer-1.png" alt="" width="400px">
+</div>
+
+
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhYPb8w1rEdNi0cY3_1v1GAeM_57eC7mM&callback=myMap"
+        type="text/javascript"></script>
+</body>
+</html>

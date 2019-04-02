@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Raleway', sans-serif;
+  src: url(https://fonts.googleapis.com/css?family=Raleway:400,500,600,700) format("truetype");
+}
+
+body, h1, h2, h3, h4, h5, h6, nav.a, .uk-logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  color: #29b574;
+}
+
+.app-button {
+  background-color: #29b574;
+  color: #fff;
+}
+
+.app-button:hover {
+  filter: brightness(110%);
+}
+
+.center {
+  margin: auto;
+  width: 60%;
+}

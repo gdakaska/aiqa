@@ -1,0 +1,125 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/css/uikit.min.css"/>
+
+
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.3/js/uikit-icons.min.js"></script>
+
+    <title>AIQA Technologies - AI powered QA</title>
+    <meta name="description" content="AI powered QA">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css"/>
+
+<!--  Favicons  -->
+    <link rel="apple-touch-icon" sizes="120x120" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="./assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <style type="text/css">
+        /* Set a size for our map container, the Google Map will take up 100% of this container */
+        #map {
+            width: 750px;
+            height: 500px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-light" uk-navbar
+         style="position: relative; z-index: 980; background-color: black;">
+        <div class="uk-navbar-left">
+            <a class="uk-navbar-item uk-logo" href="./index.html">
+                <img src="./assets/sygnet-light.png" class="uk-margin-left uk-margin-small-right" alt="" width="30px">
+                <span class="" style="color: #e6e7e7">AIQA Technologies</span>
+            </a>
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="./index.html#about">About</a>
+                </li>
+                <li>
+                    <a href="./documentation.html">Documentation</a>
+                </li>
+                <li>
+                    <a href="./index.html#partners">Partners</a>
+                </li>
+                <li>
+                    <a href="./index.html#team">Team</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#">Polski</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#">Polski</a></li>
+                            <li><a href="#">English</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+<div class="uk-container uk-padding">
+    <div class="center uk-margin-large-top">
+        <div class="uk-card uk-card-default">
+        <div class="uk-card-header">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+                <div class="uk-width-auto">
+                    <img class="uk-border-circle" width="60" height="60" src="./assets/user-icon.svg">
+                </div>
+                <div class="uk-width-expand">
+                    <h3 class="uk-card-title uk-margin-remove-bottom">Title</h3>
+                    <p class="uk-text-meta uk-margin-remove-top"><time datetime="2016-04-01T19:00">April 01, 2016</time></p>
+                </div>
+            </div>
+        </div>
+        <div class="uk-card-body">
+            <p>You can get more information about our project by contacting us via e-mail</p>
+        </div>
+        <div class="uk-card-footer">
+            <a href="#" class="uk-button uk-button-text">Read more</a>
+        </div>
+    </div>
+    </div>
+</div>
+<div class="uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top" style="height: 300px;" uk-grid>
+
+    <div class="uk-width-auto@l">
+        <div id="map" class="" style="height: 300px;"></div>
+    </div>
+    <div class="uk-width-expand@l uk-light" style="height: 300px;background-color: black;">
+        <div style="height: 250px;">
+            <img src="./assets/logo-full-white.svg" class="uk-margin-large-top uk-margin-large-left" alt=""
+                 width="200px">
+            <h4 class="uk-margin-large-left">Naleczowska 14 Lublin</h4>
+        </div>
+
+    </div>
+</div>
+<script src="script.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhYPb8w1rEdNi0cY3_1v1GAeM_57eC7mM&callback=myMap"
+        type="text/javascript"></script>
+</body>
+</html>
