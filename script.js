@@ -1,6 +1,6 @@
 function myMap() {
     var mapOptions = {
-        center: new google.maps.LatLng(51.248699, 22.5160431),
+        center: new google.maps.LatLng(52.1785337, 20.9956473),
         zoom: 17,
         mapTypeId: google.maps.MapTypeId.TERRAIN,
         styles: [
@@ -352,7 +352,7 @@ function myMap() {
         ]
     };
     var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-    var myCenter = new google.maps.LatLng(51.248699, 22.5160431);
+    var myCenter = new google.maps.LatLng(52.1785337, 20.9956473);
     var marker = new google.maps.Marker({
         position: myCenter,
         icon: './assets/placeholder-1.svg'
