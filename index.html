@@ -44,7 +44,7 @@
         <div class="uk-navbar-left">
             <a class="uk-navbar-item uk-logo" href="#">
                 <img src="./assets/sygnet-light.svg" class="uk-margin-left uk-margin-small-right" alt="" width="30px">
-                <span class="" style="color: #e6e7e7">AIQA Technologies</span>
+                <span class="" style="color: #e6e7e7"><b style="letter-spacing: 1px;">AIQA</b> Technologies</span>
             </a>
             <ul class="uk-navbar-nav">
                 <li>
@@ -57,36 +57,61 @@
                     <a href="#partners" uk-scroll>Partners</a>
                 </li>
                 <li>
-                    <a href="#team" uk-scroll>Team</a>
-                </li>
-                <li>
                     <a href="./contact.html">Contact</a>
                 </li>
             </ul>
         </div>
-        <!--        <div class="uk-navbar-right">-->
-        <!--            <ul class="uk-navbar-nav">-->
-        <!--                <li>-->
-        <!--                    <a href="#">Polski</a>-->
-        <!--                    <div class="uk-navbar-dropdown">-->
-        <!--                        <ul class="uk-nav uk-navbar-dropdown-nav">-->
-        <!--                            <li><a href="#">Polski</a></li>-->
-        <!--                            <li><a href="#">English</a></li>-->
-        <!--                        </ul>-->
-        <!--                    </div>-->
-        <!--                </li>-->
-        <!--            </ul>-->
-        <!--        </div>-->
+        <div class="uk-navbar-right">
+            <a id="nav-demo-button" href="#modal-request-demo" class="app-button uk-button uk-margin-right uk-visible@s"
+               uk-toggle>Request a demo</a>
+        </div>
     </nav>
+
+    <div id="modal-request-demo" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-modal-header">
+                <h2 class="uk-modal-title">Request a demo</h2>
+            </div>
+            <p class="">We are glad you are interested in how our product works.
+                <br>
+                <br>
+                To see a live demo, please contact us at: <span
+                        class="uk-text-success">contact@aiqa.tech</span>
+                <br>
+                We will set a convenient date for the presentation.
+            </p>
+        </div>
+    </div>
 </div>
 
 <!-- Banner -->
-<div class="uk-height-large uk-background-cover uk-flex"
-     style="background-image: url('./assets/team-use-aiqa.png');">
-    <div class="uk-width-4-5 uk-margin-auto uk-margin-auto-vertical uk-light">
-        <h1 class="">We speed up automation tests</h1>
-        <h2 class="uk-margin-small uk-margin-large-bottom">AI powered QA</h2>
-        <a class="app-button uk-button uk-button-default" href="#about" uk-scroll>Read more</a>
+<div class="uk-height-medium uk-background-cover uk-flex uk-cover-container">
+    <video autoplay loop muted playsinline uk-cover>
+        <source src="./assets/Network%20-%2012716.mp4" type="video/mp4">
+    </video>
+    <div class="uk-overlay uk-position-center uk-light">
+        <div class="uk-margin-auto uk-margin-auto-vertical uk-light uk-text-center">
+            <h1 class="uk-text-bold">AI powered QA. We speed up automated tests.</h1>
+            <a id="demo-button" class="app-button uk-button uk-button-primary" href="#modal-request-demo-2">Request a
+                demo</a>
+            <div id="modal-request-demo-2" class="uk-flex-top" uk-modal>
+                <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+                    <button class="uk-modal-close-default" type="button" uk-close></button>
+                    <div class="uk-modal-header">
+                        <h2 class="uk-modal-title">Request a demo</h2>
+                    </div>
+                    <p class="">We are glad you are interested in how our product works.
+                        <br>
+                        <br>
+                        To see a live demo, please contact us at: <span
+                                class="uk-text-success">contact@aiqa.tech</span>
+                        <br>
+                        We will set a convenient date for the presentation.
+                    </p>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 <div id="about" class="">
@@ -104,9 +129,9 @@
         </div>
         <div class="uk-width-1-2@m">
             <h3 class="">AIQA - AI powered QA</h3>
-            <p>Our mission is to significantly reduce time spent on automated test run. <br>
-                We achieve that by using a bunch of advaced tool along with Artificial Intelligence.</p>
-            <p>The solution we provide is dedicated to large, web-driven projects that already use test automation.</p>
+            <p>Our mission is to significantly reduce the time spent on running automated tests.<br>
+                We achieve that by using a bunch of advanced tools along with Artificial Intelligence.</p>
+            <p>The solution we provide is dedicated web-driven projects that already use test automation.</p>
             <h4 class="uk-margin-large-top">Check out how much faster your Continuous Integration can get.</h4>
             <a class="app-button uk-margin-top uk-button uk-button-default" href="./contact.html">Contact us
             </a>
@@ -123,8 +148,8 @@
                 <div class="">
                     <img src="./assets/hide.svg" class="uk-margin-right" width="40px" alt="">
                     <span>Source code invisibility</span>
-                    <p class="uk-text-small">None of your
-                        data will be analysed. AIQA operates on your own bunch of tests.</p>
+                    <p class="uk-text-small">Source code invisibility – None of your data will be analysed. AIQA
+                        operates on its own bunch of tests.</p>
                 </div>
                 <div class="">
                     <img src="./assets/locked.svg" class="uk-margin-right" width="40px" alt="">
@@ -135,19 +160,21 @@
                 <div class="">
                     <img src="./assets/language.svg" class="uk-margin-right" width="40px" alt="">
                     <span>Cross-language for WEB </span>
-                    <p class="uk-text-small">You can apply AIQA for all kind of WEB driven
-                        applications.</p>
+                    <p class="uk-text-small">You can apply AIQA for all kinds of WEB driven applications.
+                    </p>
                 </div>
                 <div class="">
                     <img src="./assets/tools.svg" class="uk-margin-right" width="40px" alt="">
                     <span>Easy maintenance</span>
-                    <p class="uk-text-small">Beyond the automation of the process we decrease time waste by providing
-                        clearly designed system.</p>
+                    <p class="uk-text-small">Besides the automation of the process, we decrease the wasted time by
+                        providing a clearly designed system.
+                    </p>
                 </div>
                 <div class="">
                     <img src="./assets/hourglass.svg" class="uk-margin-right" width="40px" alt="">
                     <span>Quick setup</span>
-                    <p class="uk-text-small">All you need to start is a bunch of automated tests you already use.</p>
+                    <p class="uk-text-small">All you need to start is a bunch of automated tests you are already
+                        using.</p>
                 </div>
 
                 <div class="">
@@ -162,13 +189,14 @@
     <div>
         <div class="uk-padding" style="">
             <div class="uk-text-center">
-                <h3 class="">How to easily start usign AIQA?</h3>
+                <h3 class="">How to easily start using AIQA?</h3>
                 <p class="uk-margin-large-bottom">Here are four quick steps to speed up your integration process.</p>
-                <div class="uk-child-width-1-4@s uk-grid-match" uk-grid>
+                <div class="uk-child-width-1-4@s uk-child-width-1-2 uk-grid-match" uk-grid>
                     <div>
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-body">
                                 <h3 class="uk-card-title">Step 01</h3>
+                                <img src="./assets/laptop%202.png" alt="">
                                 <p>Install AIQA within your projects.</p>
                                 <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
                             </div>
@@ -178,6 +206,7 @@
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-body">
                                 <h3 class="uk-card-title">Step 02</h3>
+                                <img src="./assets/ai.png" alt="">
                                 <p>Teach artificial intelligence to optimize build run.</p>
                                 <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
                             </div>
@@ -187,6 +216,7 @@
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-body">
                                 <h3 class="uk-card-title">Step 03</h3>
+                                <img src="./assets/run-tests-dynamicly.png" alt="" width="80%">
                                 <p>Manage projects build and run tests dynamically.</p>
                                 <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
                             </div>
@@ -196,6 +226,7 @@
                         <div class="uk-card uk-card-default">
                             <div class="uk-card-body">
                                 <h3 class="uk-card-title">Step 04</h3>
+                                <img src="./assets/statistics.png" alt="" width="50%">
                                 <p>Generate reports and share statistics.</p>
                                 <p><span uk-icon="icon: check;ratio:2"></span></p>
                             </div>
@@ -209,14 +240,14 @@
     <div id="partners" class="uk-container uk-margin-top">
         <div class="uk-padding-large" style="">
             <h3 class="uk-text-center">
-                They already use AIQA
+                They already using AIQA
             </h3>
             <p class="uk-text-center uk-margin-large-bottom">
-                Here we present companies that are already introducing <span
-                    class="uk-text-bold">AIQA Technologies</span>
+                Here we present the companies that are already introducing <span
+                    class="uk-text-bold">AIQA Technologies </span>
                 to their projects.
             </p>
-            <div class="uk-child-width-1-5" style="" uk-grid>
+            <div class="uk-child-width-1-5@s uk-child-width-1-2" style="" uk-grid>
                 <div class="uk-text-center">
                     <img src="./assets/clients/edge.png" alt="">
                 </div>
@@ -250,49 +281,10 @@
             </div>
         </div>
     </div>
-    <!-- Quotes -->
-    <div class="uk-child-width-1-3@m uk-padding-large" style="background-color: #f8f8f8; display: none;" uk-grid>
-        <div>
-            <div class="uk-grid-small" uk-grid>
-                <div class="uk-width-1-3 uk-text-right">
-                    <img class="" src="./assets/avatar-jobllegro.png" alt="" width="80px">
-                </div>
-                <div class="uk-width-2-3">
-                    <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Jobllegro</span></h5>
-                    <q class="uk-text-small">The build run for our project decreased from 10 min to 0.5
-                        min with selected testing</q>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="uk-grid-small" uk-grid>
-                <div class="uk-width-1-3 uk-text-right">
-                    <img class="" src="./assets/avatar-aida.png" alt="" width="80px">
-                </div>
-                <div class="uk-width-2-3">
-                    <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Aida</span></h5>
-                    <q class="uk-text-small">Interestingly, we did not lose test precision (...) despite significant
-                        reduction in run</q>
-                </div>
-            </div>
-        </div>
-        <div>
-            <div class="uk-grid-small" uk-grid>
-                <div class="uk-width-1-3 uk-text-right">
-                    <img class="" src="./assets/avatar-kidos.png" alt="" width="80px">
-                </div>
-                <div class="uk-width-2-3">
-                    <h5 class="uk-margin-small-bottom">Name Surname, <span class="uk-text-small">Kidos</span></h5>
-                    <q class="uk-text-small">Simple but powerfull tool</q>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="uk-padding-large uk-margin-large-bottom" style="height: 200px; background-color: #FAFAFA;" uk-grid>
         <div class="uk-width-2-3@m">
             <!--        <h2 class="uk-margin-large-left">Let us tell you how to speed up the development process for your company.</h2>-->
-            <h3 class="uk-margin-large-left">Bring the power of Artificial Intelligence into your projects <span
-                    class="uk-margin-left" uk-icon="icon: arrow-right;ratio:2"></span></h3>
+            <h3 class="uk-margin-large-left">Bring the power of Artificial Intelligence into your projects</h3>
         </div>
         <div class="uk-width-1-3@m">
             <a href="./contact.html" class="app-button uk-button uk-margin-large-left uk-button-default">Contact us</a>
@@ -305,7 +297,7 @@
                 Meet our team
             </h3>
             <p class="uk-text-center uk-margin-large-bottom">
-                Let us introduce you our dynamically developing & cross-skilled agile team.
+                Let us introduce our dynamically developing & cross-skilled agile team to you.
             </p>
             <div class="uk-center uk-child-width-1-2 uk-child-width-1-4@s" uk-grid>
                 <div class="uk-text-center">
@@ -315,14 +307,14 @@
                         CEO & Lead Developer </h5>
                 </div>
                 <div class="uk-text-center">
+                    <img class="uk-border-circle" src="./assets/bartosz.jpg" alt="" width="120px">
+                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Bartosz Ciach</span><br>
+                        Co-Founder & Chief Technology Officer</h5>
+                </div>
+                <div class="uk-text-center">
                     <img class="uk-border-circle" src="./assets/piotrek-pietras.jpeg" alt="" width="120px">
                     <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Piotr Pietras</span><br>
                         Managing Partner</h5>
-                </div>
-                <div class="uk-text-center">
-                    <img class="uk-border-circle" src="./assets/bartosz.jpg" alt="" width="120px">
-                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Bartosz Ciach</span><br>
-                        Co-Founder & Software Developer</h5>
                 </div>
                 <div class="uk-text-center">
                     <img class="uk-border-circle" src="./assets/kusiak.png" alt="" width="120px">
@@ -365,7 +357,8 @@
         </div>
         <div class="uk-width-expand@l uk-light" style="height: 300px;background-color: black;">
             <div style="height: 250px;">
-                <img src="./assets/logo-full-white.svg" class="uk-margin-large-top uk-margin-large-left uk-margin-large-right" alt=""
+                <img src="./assets/logo-full-white.svg"
+                     class="uk-margin-large-top uk-margin-large-left uk-margin-large-right" alt=""
                      width="300px">
                 <div class="uk-margin-large-left uk-margin-large-top">
                     <img class="" src="./assets/location.svg" alt="" width="15px">
