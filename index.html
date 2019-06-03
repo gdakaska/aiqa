@@ -29,12 +29,6 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
 
-    <style type="text/css">
-        #map {
-            width: 750px;
-            height: 500px;
-        }
-    </style>
 </head>
 <body>
 
@@ -318,16 +312,16 @@
                     <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Bartosz Ciach</span><br>
                         Co-Founder & CTO</h5>
                 </div>
-<!--                <div class="uk-text-center">-->
-<!--                    <img class="uk-border-circle" src="./assets/piotrek-pietras.jpeg" alt="" width="120px">-->
-<!--                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Piotr Pietras</span><br>-->
-<!--                        Managing Partner</h5>-->
-<!--                </div>-->
-<!--                <div class="uk-text-center">-->
-<!--                    <img class="uk-border-circle" src="./assets/kusiak.png" alt="" width="120px">-->
-<!--                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Krzysztof Kusiak</span><br>-->
-<!--                        Managing Partner</h5>-->
-<!--                </div>-->
+                <!--                <div class="uk-text-center">-->
+                <!--                    <img class="uk-border-circle" src="./assets/piotrek-pietras.jpeg" alt="" width="120px">-->
+                <!--                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Piotr Pietras</span><br>-->
+                <!--                        Managing Partner</h5>-->
+                <!--                </div>-->
+                <!--                <div class="uk-text-center">-->
+                <!--                    <img class="uk-border-circle" src="./assets/kusiak.png" alt="" width="120px">-->
+                <!--                    <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Krzysztof Kusiak</span><br>-->
+                <!--                        Managing Partner</h5>-->
+                <!--                </div>-->
                 <div class="uk-text-center">
                     <img class="uk-border-circle" src="./assets/opala.png" alt="" width="120px">
                     <h5 class="uk-text-small uk-margin-small-top"><span class="uk-text-bold">Michał Opala</span><br>
@@ -368,35 +362,41 @@
         </div>
     </div>
     <!-- Footer -->
-    <div class="uk-grid-collapse uk-child-width-1-2@s uk-margin-large-top" style="height: 300px;" uk-grid>
-
-        <div class="uk-width-auto@l">
-            <div id="map" class="" style="height: 300px;"></div>
-        </div>
-        <div class="uk-width-expand@l uk-light" style="height: 300px;background-color: black;">
-            <div style="height: 250px;">
-                <img src="./assets/logo-full-white.svg"
-                     class="uk-margin-large-top uk-margin-large-left uk-margin-large-right" alt=""
-                     width="300px">
-                <div class="uk-margin-large-left uk-margin-large-top">
-                    <img class="" src="./assets/location.svg" alt="" width="15px">
-                    <span class="uk-text-small uk-text-muted uk-h5">Postepu 14B, 02-676 Warszawa</span>
-                    <img class="uk-margin-left" src="./assets/mail.svg" alt="" width="18px">
-                    <span class="uk-text-small uk-text-muted uk-h5">contact@aiqa.tech</span>
-                </div>
-                <div class="uk-margin-large-left uk-margin-top">
-                    <img class="uk-margin-right" src="./assets/edulab-logo.png" alt="" width="20%">
-                    <span class="uk-text-small uk-text-muted uk-h5 uk-margin-right">NIP: 5213759585</span>
-                    <span class="uk-text-small uk-text-muted uk-h5">KRS: 0000652777</span>
+    <div class="uk-margin-large-top uk-padding" style="background-color: black;">
+        <div class="uk-child-width-1-3@m" uk-grid>
+            <div class="">
+                <img src="./assets/biale-logo.png"
+                     class="uk-margin-large-top" alt=""
+                     width="80%">
+            </div>
+            <div class="uk-margin-large-top">
+                <a href="https://www.linkedin.com/company/18203924" class="uk-icon-button uk-margin-small-right"
+                   target="_blank" uk-icon="linkedin"></a>
+                <a href="https://www.facebook.com/aiqa.tech" class="uk-icon-button  uk-margin-small-right"
+                   target="_blank" uk-icon="facebook"></a>
+                <span class="uk-icon-button  uk-margin-small-right" uk-icon="mail"></span>
+                <span class="">contact@aiqa.tech</span>
+            </div>
+            <div class="uk-light">
+                <div class="uk-margin-top">
+                    <img class="uk-margin-bottom" src="./assets/edulab-logo.png" alt="" width="40%">
+                    <div class="uk-margin-bottom">
+                        <span class="uk-text-small uk-text-muted uk-h5">Postepu 14B, 02-676 Warszawa</span>
+                    </div>
+                    <div>
+                        <span class="uk-text-small uk-text-muted uk-h6 uk-margin-right"
+                              style="font-size: 10px; white-space: nowrap"">NIP: 5213759585</span>
+                        <span class="uk-text-small uk-text-muted uk-h6" style="font-size: 10px; white-space: nowrap">KRS: 0000652777</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="" style="height: 50px; background-color: #ffffff;">
-        <p class="uk-text-muted uk-text-center uk-margin-remove" style="font-size: 8px;">Copyright © 2019 AIQA
-            Technologies. All rights
-            reserved.</p>
-        <img class="uk-align-center" src="assets/footer-1.png" alt="" width="300px">
+        <div>
+            <hr class="uk-hr uk-light uk-align-center uk-margin-large-top uk-margin-remove-bottom" style="width: 40%;">
+            <p class="uk-text-muted uk-text-center uk-margin-small-top" style="font-size: 8px;">Copyright © 2019 AIQA
+                Technologies. All rights
+                reserved.</p>
+        </div>
     </div>
     <script src="script.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhYPb8w1rEdNi0cY3_1v1GAeM_57eC7mM&callback=myMap"
