@@ -10,17 +10,30 @@ body, h1, h2, h3, h4, h5, h6, nav.a, .uk-logo {
 .uk-light .uk-navbar-nav>li>a, a {
   color: #29b574;
 }
-
 .app-button {
-  background-color: #29b574;
-  color: #fff;
-  -webkit-border-radius: 25px;
-  -moz-border-radius: 25px;
-  border-radius: 25px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+.app-button, a.app-button {
+  border: 1px solid #29b574;
+  color: #29b574;
+  background-color: transparent;
+
+}
+.app-button:hover, a.app-button:hover{
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
 }
 
-.app-button:hover {
-  filter: brightness(110%);
+.app-button-primary, a.app-button-primary {
+  background-color: #29b574;
+  color: #fff;
+  border: transparent;
+}
+.app-button-primary:hover, a.app-button-primary:hover{
+  filter: brightness(115%);
 }
 
 .center {
@@ -30,4 +43,115 @@ body, h1, h2, h3, h4, h5, h6, nav.a, .uk-logo {
 
 ul> li:nth-child(n) {
   display: block;
+}
+
+.uk-navbar-nav>li>a {
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.1em;
+
+  display: inline-block;
+  padding: 30px 20px;
+  position: relative;
+}
+.uk-navbar-nav>li>a:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 20px;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: black;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.uk-navbar-nav>li>a:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.app-check-icon {
+  background-color: #3ed38e;
+  color: white;
+}
+
+.app-check-icon:hover {
+  background-color: #3ed38e;
+  color: white;
+}
+
+
+
+
+.md-stepper-horizontal {
+  display:table;
+  width:100%;
+  margin:0 auto;
+}
+.md-stepper-horizontal .md-step {
+  display:table-cell;
+  position:relative;
+  padding:24px;
+}
+.md-stepper-horizontal .md-step:first-child .md-step-bar-left,
+.md-stepper-horizontal .md-step:last-child .md-step-bar-right {
+  display:none;
+}
+.md-stepper-horizontal .md-step .md-step-circle {
+  width:30px;
+  height:30px;
+  margin:0 auto;
+  background-color:#3ed38e;
+  border-radius: 50%;
+  text-align: center;
+  line-height:30px;
+  font-size: 16px;
+  font-weight: 600;
+  color:#FFFFFF;
+}
+
+
+
+.md-stepper-horizontal .md-step .md-step-title {
+  margin-top:16px;
+  font-size:16px;
+  font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-title,
+.md-stepper-horizontal .md-step .md-step-optional {
+  text-align: center;
+  color: #4C4A4C;
+}
+.md-stepper-horizontal .md-step.active .md-step-title {
+  font-weight: 600;
+  color:rgba(0,0,0,.87);
+}
+.md-stepper-horizontal .md-step.active.done .md-step-title,
+.md-stepper-horizontal .md-step.active.editable .md-step-title {
+  font-weight:600;
+}
+.md-stepper-horizontal .md-step .md-step-optional {
+  font-size:12px;
+}
+.md-stepper-horizontal .md-step.active .md-step-optional {
+  color:rgba(0,0,0,.54);
+}
+.md-stepper-horizontal .md-step .md-step-bar-left,
+.md-stepper-horizontal .md-step .md-step-bar-right {
+  position:absolute;
+  top:36px;
+  height:1px;
+  border-top:1px solid #DDDDDD;
+}
+.md-stepper-horizontal .md-step .md-step-bar-right {
+  right:0;
+  left:50%;
+  margin-left:20px;
+}
+.md-stepper-horizontal .md-step .md-step-bar-left {
+  left:0;
+  right:50%;
+  margin-right:20px;
 }

@@ -42,18 +42,19 @@
 
         gtag('config', 'UA-143251907-1');
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
 </head>
 <body>
 
 <!-- Navigation -->
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-    <nav class="uk-navbar-container uk-light" uk-navbar
-         style="position: relative; z-index: 980; background-color: black;">
+    <nav class="uk-navbar-container" uk-navbar
+         style="position: relative; z-index: 980; background-color: rgb(250, 250, 250);">
         <div class="uk-navbar-left">
             <a class="uk-navbar-item uk-logo" href="#">
-                <img src="./assets/sygnet-light.svg" class="uk-margin-small-right" alt="" width="30px">
-                <span class="" style="color: #e6e7e7"><b style="letter-spacing: 1px;">AIQA</b> Technologies</span>
+                <img src="./assets/sygnet.svg" class="uk-margin-small-right" alt="" width="30px">
+                <span class="" style="color: #4C4A4C"><b style="letter-spacing: 1px;">AIQA</b> Technologies</span>
             </a>
             <ul class="app-nav uk-navbar-nav" style="width: 50%;">
                 <li>
@@ -96,14 +97,14 @@
 </div>
 
 <!-- Banner -->
-<div class="uk-container-fluid uk-padding-large uk-margin-remove-bottom" style="background-color: rgb(250, 250, 250); display: none;">
+<div class="uk-container-fluid uk-padding-large uk-margin-remove-bottom" style="background-color: rgb(250, 250, 250);">
     <div class="uk-child-width-1-2@m" uk-grid>
         <div>
-            <div class="uk-margin-large-left">
+            <div class="uk-margin-left">
                 <div class="uk-margin-auto uk-margin-auto-vertical">
-                    <h1 class="uk-text-bold">AI powered QA. </h1>
-                       <h2 class="uk-text-bold">We speed up the development process.</h2>
-                    <a id="" class="app-button uk-button uk-button-primary" href="#contact-section">Contact us</a>
+                    <h2 class="uk-text-bold">SPEED UP YOUR TIME TO MARKET</h2>
+                    <h1 class="uk-text-bold">AIQA - AI powered QA</h1>
+                    <a class="app-button-primary uk-button uk-margin-medium-top" href="#contact-section">Contact us</a>
                 </div>
             </div>
         </div>
@@ -116,18 +117,7 @@
         </div>
     </div>
 </div>
-<div class="uk-height-medium uk-background-cover uk-flex uk-cover-container">
-    <video autoplay loop muted playsinline uk-cover>
-        <source src="./assets/Network%20-%2012716.mp4" type="video/mp4">
-    </video>
-    <div class="uk-overlay uk-position-center-left uk-light uk-margin-large-left">
-        <div class="uk-margin-auto uk-margin-auto-vertical uk-light">
-            <h1 class="uk-text-bold">AI powered QA. <br>
-                We speed up automated tests.</h1>
-            <a id="demo-button" class="app-button uk-button uk-button-primary" href="#contact-section">Contact us</a>
-        </div>
-    </div>
-</div>
+<!-- Modal -->
 <div id="modal-request-demo-2" class="uk-flex-top" uk-modal>
     <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
         <button class="uk-modal-close-default" type="button" uk-close></button>
@@ -144,6 +134,7 @@
         </p>
     </div>
 </div>
+<!-- First section -->
 <div id="about" class="">
     <div class="uk-margin-large-left uk-margin-large-top">
         <span>Explore AIQA:</span>
@@ -153,127 +144,225 @@
     </div>
     <div class="uk-padding-large uk-margin-top uk-grid-large" uk-grid>
         <div class="uk-width-1-2@m">
-            <!--            <iframe width="100%" style="min-height: 400px;" src="https://youtube.com/embed/-ojJ8KE8yXo">-->
-            <!--            </iframe>-->
             <img src="./assets/computer-aiqa.png" alt="">
         </div>
         <div class="uk-width-1-2@m">
-            <h3 class="">AIQA - AI powered QA</h3>
-            <p>Our mission is to significantly reduce the time spent on running automated tests.<br>
-                We achieve that by using a bunch of advanced tools along with Artificial Intelligence.</p>
-            <p>The solution we provide is dedicated to projects that already use test automation.</p>
-            <h4 class="uk-margin-large-top">Check out how much faster your Continuous Integration can get.</h4>
-            <a class="app-button uk-margin-top uk-button uk-button-default" href="#contact-section">Contact us
-            </a>
-        </div>
-        <div class="uk-margin-xlarge-top">
-            <h2 class="uk-align-center uk-text-center">AIQA. Quality, security & speed.
-            </h2>
-            <h3 class="uk-text-lead uk-text-center">
-                Your code is perfectly safe - we do not check it out.
-                <!--                We do not look into your code. Quick and easy setup. Significant acceleration of development.-->
-            </h3>
-            <div class="uk-width-1-1 uk-padding uk-child-width-1-3@s uk-margin-bottom" uk-grid>
-
-                <div class="">
-                    <img src="./assets/hide.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Source code invisibility</span>
-                    <p class="uk-text-small">None of your source files will be accessed.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/language.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Cross-language</span>
-                    <p class="uk-text-small">You can apply AIQA for all kinds of applications.
-                    </p>
-                </div>
-                <div class="">
-                    <img src="./assets/badge-with-two-ribbons.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Success guarantee</span>
-                    <p class="uk-text-small">Your satisfaction is guaranteed.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/hourglass.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Quick setup</span>
-                    <p class="uk-text-small">All you need to start is a bunch of automated tests you are already
-                        using.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/settings.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Consistency of the process</span>
-                    <p class="uk-text-small">We do not affect your current process. We provide the solution that
-                        optimizes it.</p>
-                </div>
-                <div class="">
-                    <img src="./assets/tools.svg" class="uk-margin-right" width="40px" alt="">
-                    <span class="uk-text-uppercase">Easy maintenance</span>
-                    <p class="uk-text-small">We decrease the wasted time amount by providing a clearly designed system.
-                    </p>
-                </div>
-            </div>
+            <h3 class="uk-text-bold">REDUCE TIME SPENT ON AUTOMATED TESTING</h3>
+            <h4>Shorten the duration of end-to-end tests by implementing the power of Machine Learning into the testing
+                process.</h4>
+            <h4 class="uk-text-uppercase">ALL YOU NEED IS</h4>
+            <p>
+                <span href="#" class="app-check-icon uk-icon-button uk-margin-right" uk-icon="check"></span>
+                Git as a Version Control system
+            </p>
+            <p>
+                <span href="#" class="app-check-icon uk-icon-button uk-margin-right" uk-icon="check"></span>
+                Automated testing process
+            </p>
+            <p>
+                <span href="#" class="app-check-icon uk-icon-button uk-margin-right" uk-icon="check"></span>
+                Independent end-to-end tests
+            </p>
         </div>
     </div>
-    <div>
-        <div class="uk-padding" style="">
-            <div class="uk-text-center">
-                <h3 class="">How to easily start using AIQA?</h3>
-                <p class="uk-margin-large-bottom">Here are four quick steps to speed up your integration process.</p>
-                <div class="uk-child-width-1-4@m uk-child-width-1-2@s uk-child-width-1-1 uk-grid-match" uk-grid>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Step 01</h3>
-                                <img src="./assets/laptop%202.png" alt="">
-                                <p>Install AIQA within your projects.</p>
-                                <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Step 02</h3>
-                                <img src="./assets/ai.png" alt="">
-                                <p>Teach artificial intelligence to optimize test run.</p>
-                                <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Step 03</h3>
-                                <img src="./assets/run-tests-dynamicly.png" alt="" width="80%">
-                                <p>Manage projects build and run tests dynamically.</p>
-                                <p><span uk-icon="icon: arrow-right;ratio:2"></span></p>
-                            </div>
-                        </div>
-                    </div>
-                    <div>
-                        <div class="uk-card uk-card-default">
-                            <div class="uk-card-body">
-                                <h3 class="uk-card-title">Step 04</h3>
-                                <img src="./assets/statistics.png" alt="" width="50%">
-                                <p>Generate reports and share statistics.</p>
-                                <p><span uk-icon="icon: check;ratio:2"></span></p>
-                            </div>
-                        </div>
-                    </div>
+</div>
+<!-- Second section -->
+<div class="uk-padding uk-text-center">
+    <h3 class="uk-text-uppercase uk-text-bold">Your code is perfectly safe - we do not check it out.
+    </h3>
+    <h4 class="uk-text-lead">
+        AIQA Technology is based on filenames and tests output.
+    </h4>
+</div>
+<div class="uk-container-fluid uk-margin-remove">
+    <div class="uk-padding-large uk-child-width-1-3@m uk-margin-bottom" style="background-color: rgb(250, 250, 250);" uk-grid>
+        <div class="">
+            <img src="./assets/locked.svg" class="uk-margin-right" width="40px" alt="">
+            <span class="uk-text-uppercase uk-text-small">Source code security</span>
+            <p class="uk-text-small">None of your source files will be accessed, no repository needs to be cloned.</p>
+        </div>
+        <div class="">
+            <img src="./assets/settings.svg" class="uk-margin-right" width="40px" alt="">
+            <span class="uk-text-uppercase uk-text-small">Consistency of the process</span>
+            <p class="uk-text-small">We do not affect your current process. We provide the solution that
+                optimizes it.</p>
+        </div>
+        <div class="">
+            <img src="./assets/language.svg" class="uk-margin-right" width="40px" alt="">
+            <span class="uk-text-uppercase uk-text-small">Cross-language</span>
+            <p class="uk-text-small">You can apply AIQA for all kinds of applications, regardless of the technology.
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- Charts -->
+<div class="uk-container uk-padding-large">
+    <h2 class="uk-text-uppercase uk-text-bold uk-text-center">Real cost saving with AIQA technology
+    </h2>
+    <div class="uk-child-width-1-3@m" uk-grid>
+        <div class="uk-margin-large-top uk-text-center">
+            <h3 class="uk-text-uppercase uk-margin-remove">Reduced tests runs</h3>
+            <h2 class="uk-margin-remove">up to 3%</h2>
+            <canvas class="uk-align-center" id="myChart-1" width="250px" height="250px"></canvas>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+            <script>
+                var ctx = document.getElementById("myChart-1");
+                var myChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Total test run', 'You save with AIQA'],
+                        datasets: [{
+                            label: '# of Tomatoes',
+                            data: [3, 97],
+                            backgroundColor: [
+                                'rgba(255,99,132,1)',
+                                '#3ed38e'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        cutoutPercentage: 40,
+                        responsive: false,
+                        legend: {
+                            display: false
+                        }
+                    }
+                });
+            </script>
+            <p class="">You reduce the number of tests runs up to 3% of the whole test set</p>
+        </div>
+        <div class="uk-margin-large-top uk-text-center">
+            <h3 class="uk-text-uppercase uk-margin-remove">Reduced process costs</h3>
+            <h2 class="uk-margin-remove">up to 5%</h2>
+            <canvas class="uk-align-center" id="myChart-2" width="300px" height="300px"></canvas>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+            <script>
+                var ctx = document.getElementById("myChart-2");
+                var myChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Costs with AIQA', 'Costs without AIQA'],
+                        datasets: [{
+                            label: '# of Tomatoes',
+                            data: [5, 95],
+                            backgroundColor: [
+                                '#3ed38e',
+                                '#FFC502'
+
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        cutoutPercentage: 40,
+                        responsive: false,
+                        legend: {
+                            display: false
+                        }
+                    }
+                });
+            </script>
+            <p class="">You minimize the initial cost of the Testing Process up to 5%</p>
+        </div>
+        <div class="uk-margin-large-top uk-text-center">
+            <h3 class="uk-text-uppercase">3 areas of savings</h3>
+            <canvas class="uk-align-center" id="myChart-3" width="250px" height="250px"></canvas>
+            <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+            <script>
+                var ctx = document.getElementById("myChart-3");
+                var myChart = new Chart(ctx, {
+                    type: 'pie',
+                    data: {
+                        labels: ['Queuing tasks', 'Developers time', 'Cloud computing'],
+                        datasets: [{
+                            label: '# of Tomatoes',
+                            data: [15, 60, 25],
+                            backgroundColor: [
+                                'rgba(255,99,132,1)',
+                                'rgba(54, 162, 235, 1)',
+                                'rgba(75, 192, 192, 1)'
+                            ],
+                            borderWidth: 2
+                        }]
+                    },
+                    options: {
+                        cutoutPercentage: 40,
+                        responsive: false,
+                        legend: {
+                            display: false
+                        }
+                    }
+                });
+            </script>
+            <p class="">Task queuing,
+                <br>
+                Cloud computing,
+                <br>
+                Developers' time</p>
+        </div>
+    </div>
+</div>
+<!-- Steps -->
+<div class="uk-padding" style="background-color: rgb(250, 250, 250);">
+    <div class="uk-text-center">
+        <h3 class="uk-text-uppercase uk-margin-medium-top uk-margin-bottom">Four quick steps to start using AIQA</h3>
+        <div class="md-stepper-horizontal orange">
+            <div class="md-step">
+                <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>1</span></div>
+                <div class="md-step-title uk-text-uppercase">Install AIQA within
+                    <br>
+                    your projects.
                 </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>2</span></div>
+                <div class="md-step-title uk-text-uppercase">Teach artificial intelligence
+                    <br>
+                    to optimize test run.
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>3</span></div>
+                <div class="md-step-title uk-text-uppercase">Manage projects build
+                    <br>
+                    and run tests dynamically.
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
+            </div>
+            <div class="md-step">
+                <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>4</span></div>
+                <div class="md-step-title uk-text-uppercase">Generate reports
+                    <br>
+                    and share statistics.
+                </div>
+                <div class="md-step-bar-left"></div>
+                <div class="md-step-bar-right"></div>
             </div>
         </div>
     </div>
 </div>
+</div>
+<!-- Demo section -->
+<div class="uk-padding uk-text-center uk-light" style="background-color: #29b574; color: white">
+    <h4 class="uk-text-align-center" style="color: white">Check out how much faster your Continuous Integration can
+        get.</h4>
+    <a class="app-button uk-margin-top uk-button uk-button-default" href="#contact-section">Contact us
+    </a>
+</div>
+
 <!-- Partners section -->
 <div id="partners" class="uk-container uk-margin-top">
     <div class="uk-padding-large" style="">
-        <h3 class="uk-text-center">
+        <h3 class="uk-text-center uk-text-uppercase uk-margin-medium-bottom">
             Business Partners
         </h3>
-        <p class="uk-text-center uk-margin-large-bottom">
-            Here we present the companies that are introducing <span
-                class="uk-text-bold">AIQA Technologies </span>
-            to their projects.
-        </p>
         <div class="uk-child-width-1-4@m uk-child-width-1-2" style="" uk-grid>
             <div class="uk-text-center">
                 <img src="./assets/clients/edge.png" alt="">
@@ -314,19 +403,10 @@
         </div>
     </div>
 </div>
-<div class="uk-padding-large uk-margin-large-bottom" style="height: 200px; background-color: #FAFAFA;" uk-grid>
-    <div class="uk-width-2-3@m">
-        <!--        <h2 class="uk-margin-large-left">Let us tell you how to speed up the development process for your company.</h2>-->
-        <h3 class="uk-margin-left">Bring the power of Artificial Intelligence into your development process</h3>
-    </div>
-    <div class="uk-width-1-3@m">
-        <a href="#contact-section" class="app-button uk-button uk-margin-large-left uk-button-default">Contact us</a>
-    </div>
-</div>
 <!-- Team section -->
 <div id="team" class="uk-container" style="">
     <div class="uk-padding-large">
-        <h3 class="uk-margin-top uk-margin-large-bottom uk-text-center">
+        <h3 class="uk-margin-top uk-margin-large-bottom uk-text-center uk-text-uppercase">
             Meet our team
         </h3>
         <div class="uk-center uk-child-width-1-2 uk-child-width-1-4@s" uk-grid>
@@ -426,26 +506,21 @@
         </div>
     </div>
 </div>
-<div id="contact-section" class="uk-container-fluid uk-padding-large uk-margin-remove-bottom uk-margin-large-top" style="background-color: rgb(250, 250, 250)">
-    <div class="uk-child-width-1-2@m" uk-grid>
-        <div>
-            <p class="uk-text-lead uk-margin-large-left">
-                Email us to get more information
-                <br>
-                <b>
-<!--                    <span class="" uk-icon="icon: mail; ratio:1.6"></span>-->
-                    <img src="./assets/send-mail.svg" alt="" style="width: 30px;">
-                    contact@aiqa.tech</b>
-            </p>
-            <h3></h3>
-        </div>
-        <div>
-            <div class="uk-card uk-card-default">
-                <div class="uk-card-media-top">
-                    <img src="assets/screen-2.png" alt="">
-                </div>
-            </div>
-        </div>
+<div id="contact-section"
+     class="uk-container-fluid uk-margin-remove-bottom uk-margin-large-top"
+     style="background-color: rgb(250, 250, 250)">
+
+    <div class="uk-text-center uk-padding-large">
+        <img class="uk-border-circle" src="./assets/3.JPG" alt="" style="width: 150px">
+        <p class="uk-text-lead">
+            Email us to get more information
+        </p>
+        <p class="uk-text-lead">
+            <b>
+                <img src="./assets/send-mail.svg" alt="" style="width: 30px;">
+                contact@aiqa.tech
+            </b>
+        </p>
     </div>
 </div>
 <!-- Footer -->
@@ -497,7 +572,5 @@
     </div>
 </div>
 <script src="script.js"></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhYPb8w1rEdNi0cY3_1v1GAeM_57eC7mM&callback=myMap"
-        type="text/javascript"></script>
 </body>
 </html>
