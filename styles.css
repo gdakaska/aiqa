@@ -45,6 +45,16 @@ ul> li:nth-child(n) {
   display: block;
 }
 
+.app-link-light {
+  color: white;
+  text-decoration: none;
+}
+
+.app-link-light:hover {
+  text-decoration: none;
+  color: #29b574;
+}
+
 .uk-navbar-nav>li>a {
   color: black;
   text-transform: uppercase;
@@ -73,13 +83,7 @@ ul> li:nth-child(n) {
 }
 
 .app-check-icon {
-  background-color: #3ed38e;
-  color: white;
-}
-
-.app-check-icon:hover {
-  background-color: #3ed38e;
-  color: white;
+  color: #3ed38e;
 }
 
 
@@ -154,4 +158,16 @@ ul> li:nth-child(n) {
   left:0;
   right:50%;
   margin-right:20px;
+}
+
+
+/* Plans */
+.app-card-plans {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.app-card-plans:hover {
+  -webkit-transform:scale(1.1);
+  transform:scale(1.1);
+  filter: brightness(110%);
 }
