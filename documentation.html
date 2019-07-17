@@ -40,50 +40,54 @@
     </script>
 
 </head>
-<body>
+<body><!-- Navigation -->
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
-    <nav class="uk-navbar-container uk-light" uk-navbar
-         style="position: relative; z-index: 980; background-color: black;">
+    <nav class="uk-navbar-container" uk-navbar
+         style="position: relative; z-index: 980; background-color: rgb(250, 250, 250);">
         <div class="uk-navbar-left">
-            <a class="uk-navbar-item uk-logo" href="./index.html">
-                <img src="./assets/sygnet-light.svg" class="uk-margin-left uk-margin-small-right" alt="" width="30px">
-                <span class="" style="color: #e6e7e7;">AIQA Technologies</span>
+            <a class="uk-navbar-item uk-logo" href="#">
+                <img src="./assets/sygnet.svg" class="uk-margin-small-right" alt="" width="30px">
+                <span class="" style="color: #4C4A4C"><b style="letter-spacing: 1px;">AIQA</b> Technologies</span>
             </a>
-            <ul class="uk-navbar-nav">
+            <ul class="app-nav uk-navbar-nav" style="width: 50%;">
                 <li>
-                    <a href="index.html#about">About</a>
+                    <a href="./index.html">About</a>
                 </li>
                 <li>
                     <a href="./documentation.html">Documentation</a>
                 </li>
                 <li>
-                    <a href="index.html#partners">Partners</a>
+                    <a href="./index.html#partners">Partners</a>
                 </li>
                 <li>
-                    <a href="index.html#contact-section">Contact</a>
+                    <a href="./index.html#contact-section">Contact</a>
                 </li>
             </ul>
         </div>
-<!--        <div class="uk-navbar-right">-->
-<!--            <ul class="uk-navbar-nav">-->
-<!--                <li>-->
-<!--                    <a href="#">Polski</a>-->
-<!--                    <div class="uk-navbar-dropdown">-->
-<!--                        <ul class="uk-nav uk-navbar-dropdown-nav">-->
-<!--                            <li><a href="#">Polski</a></li>-->
-<!--                            <li><a href="#">English</a></li>-->
-<!--                        </ul>-->
-<!--                    </div>-->
-<!--                </li>-->
-<!--            </ul>-->
-<!--        </div>-->
+        <div class="uk-navbar-right">
+            <a id="nav-demo-button" href="#modal-request-demo" class="app-button uk-button uk-margin-right uk-visible@s"
+               style="white-space: nowrap"
+               uk-toggle>Request a demo</a>
+        </div>
     </nav>
+    <div id="modal-request-demo" class="uk-flex-top" uk-modal>
+        <div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+            <button class="uk-modal-close-default" type="button" uk-close></button>
+            <div class="uk-modal-header">
+                <h2 class="uk-modal-title">Request a demo</h2>
+            </div>
+            <p class="">We are glad you are interested in how our product works.
+                <br>
+                <br>
+                To see a live demo, please contact us at: <span
+                        class="uk-text-success">contact@aiqa.tech</span>
+                <br>
+                We will set a convenient date for the presentation.
+            </p>
+        </div>
+    </div>
 </div>
 <div class="uk-container uk-padding-large">
-    <a class="app-button uk-button uk-button-default uk-align-right uk-margin-top" href="./index.html#about"><span
-            uk-icon="icon: arrow-left"></span>
-        Read More
-    </a>
     <h3 class="uk-margin-large-bottom">These are the technologies we use:</h3>
 
 
