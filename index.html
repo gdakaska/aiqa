@@ -44,9 +44,21 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
 
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.0/jquery.cookie.js"></script>
+
 </head>
 <body>
-
+<!-- Cookies -->
+<!--<div id="cookies-info" class="uk-padding-small uk-light uk-text-center" style="background-color: rgba(76,74,76,0.8); position: fixed; bottom: 0; width: 100%; z-index: 100;">-->
+<!--    <span class="">-->
+<!--    This website is using cookies. Read for-->
+<!--    </span>-->
+<!--    <a href="#" class="" target="_blank">more info</a>-->
+<!--    <span class="uk-margin-right">.</span>-->
+<!--    <a class="uk-button app-button-primary" onclick="hideCookiesInfo()">That's Fine</a>-->
+<!--</div>-->
 <!-- Navigation -->
 <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav class="uk-navbar-container" uk-navbar
@@ -102,7 +114,9 @@
             <div class="uk-margin-left">
                 <div class="uk-margin-auto uk-margin-auto-vertical">
                     <h1 class="uk-text-bold uk-text-uppercase">AI powered QA</h1>
+                    <hr>
                     <h2 class="uk-text-bold">SPEED UP YOUR TIME TO MARKET</h2>
+                    <!--                    <h4 class="uk-text-bold uk-margin-remove">Cloud-based platform for faster end-to-end testing</h4>-->
                     <a class="app-button-primary uk-button uk-margin-medium-top" href="#contact-section">Contact us</a>
                 </div>
             </div>
@@ -157,7 +171,8 @@
     </h4>
 </div>
 <div class="uk-container-fluid uk-margin-remove">
-    <div class="uk-padding-large uk-child-width-1-3@m uk-margin-bottom" style="background-color: rgb(250, 250, 250);" uk-grid>
+    <div class="uk-padding-large uk-child-width-1-3@m uk-margin-bottom" style="background-color: rgb(250, 250, 250);"
+         uk-grid>
         <div class="">
             <img src="./assets/locked.svg" class="uk-margin-right" width="40px" alt="">
             <span class="uk-text-uppercase uk-text-small">Source code security</span>
@@ -184,7 +199,7 @@
     </h2>
     <div class="uk-child-width-1-3@m" uk-grid>
         <div class="uk-margin-large-top uk-text-center">
-            <h2 class="uk-margin-remove uk-text-bold uk-text-uppercase">3%</h2>
+            <h2 class="uk-margin-remove uk-text-bold uk-text-uppercase">97%</h2>
             <h4 class="uk-text-uppercase uk-margin-remove">Reduced tests runs</h4>
             <canvas class="uk-align-center" id="myChart-1" width="200px" height="200px"></canvas>
             <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -216,7 +231,7 @@
             <p class="">You reduce the number of tests runs up to 3% of the whole test set</p>
         </div>
         <div class="uk-margin-large-top uk-text-center">
-            <h2 class="uk-margin-remove uk-text-bold uk-text-uppercase">5%</h2>
+            <h2 class="uk-margin-remove uk-text-bold uk-text-uppercase">95%</h2>
             <h4 class="uk-text-uppercase uk-margin-remove">Reduced process costs</h4>
             <canvas class="uk-align-center" id="myChart-2" width="250px" height="250px"></canvas>
             <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
@@ -231,7 +246,7 @@
                             data: [5, 95],
                             backgroundColor: [
                                 '#3ed38e',
-                                '#FFC502'
+                                '#fec42e'
 
                             ],
                             borderWidth: 2
@@ -264,8 +279,8 @@
                             data: [15, 60, 25],
                             backgroundColor: [
                                 'rgba(255,99,132,1)',
-                                'rgba(54, 162, 235, 1)',
-                                'rgba(75, 192, 192, 1)'
+                                '#fec42e',
+                                '#3ed38e'
                             ],
                             borderWidth: 2
                         }]
@@ -288,13 +303,14 @@
 <!-- Steps -->
 <div class="uk-padding uk-visible@m" style="background-color: rgb(250, 250, 250);">
     <div class="uk-text-center">
-        <h3 class="uk-text-uppercase uk-margin-medium-top uk-margin-bottom uk-text-bold">Four quick steps to start using AIQA</h3>
+        <h3 class="uk-text-uppercase uk-margin-medium-top uk-margin-bottom uk-text-bold">Four quick steps to start using
+            AIQA</h3>
         <div class="md-stepper-horizontal orange">
             <div class="md-step">
                 <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>1</span></div>
                 <div class="md-step-title uk-text-uppercase">Install AIQA within
                     <br>
-                    your projects.
+                    your projects
                 </div>
                 <div class="md-step-bar-left"></div>
                 <div class="md-step-bar-right"></div>
@@ -303,7 +319,7 @@
                 <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>2</span></div>
                 <div class="md-step-title uk-text-uppercase">Teach artificial intelligence
                     <br>
-                    to optimize test run.
+                    to optimize test run
                 </div>
                 <div class="md-step-bar-left"></div>
                 <div class="md-step-bar-right"></div>
@@ -312,7 +328,7 @@
                 <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>3</span></div>
                 <div class="md-step-title uk-text-uppercase">Manage projects build
                     <br>
-                    and run tests dynamically.
+                    and run tests dynamically
                 </div>
                 <div class="md-step-bar-left"></div>
                 <div class="md-step-bar-right"></div>
@@ -321,7 +337,7 @@
                 <div class="md-step-circle" style="font-family: 'Open Sans', sans-serif"><span>4</span></div>
                 <div class="md-step-title uk-text-uppercase">Generate reports
                     <br>
-                    and share statistics.
+                    and share statistics
                 </div>
                 <div class="md-step-bar-left"></div>
                 <div class="md-step-bar-right"></div>
@@ -332,7 +348,7 @@
 </div>
 <!-- Demo section -->
 <div class="uk-padding uk-text-center uk-light" style="background-color: #29b574; color: white">
-    <h4 class="uk-text-align-center" style="color: white">Check out how much faster your Continuous Integration can
+    <h4 class="uk-text-align-center uk-text-uppercase uk-text-bold" style="color: white">Check out how much faster your Continuous Integration can
         get.</h4>
     <a class="app-button uk-margin-top uk-button uk-button-default" href="#contact-section">Contact us
     </a>
@@ -565,5 +581,8 @@
     </div>
 </div>
 <script src="script.js"></script>
+<script src="jquery.min.js"></script>
+<script src="jquery.firstVisitPopup.js"></script>
+
 </body>
 </html>
