@@ -167,9 +167,7 @@ ul> li:nth-child(n) {
   transition: all 0.7s ease;
 }
 .app-card-plans:hover {
-  -webkit-transform:scale(1.1);
-  transform:scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
   filter: brightness(110%);
 }
-
-
