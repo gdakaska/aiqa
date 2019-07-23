@@ -171,3 +171,16 @@ ul> li:nth-child(n) {
   transform: scale(1.1);
   filter: brightness(110%);
 }
+
+
+#background-text {
+  z-index: -10;
+  font-size: 400px;
+  color: rgba(190,190,190, 0.1);
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  left: -50px;
+  position: absolute;
+}
