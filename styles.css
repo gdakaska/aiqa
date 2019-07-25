@@ -189,8 +189,8 @@ ul> li:nth-child(n) {
 
 
 #background-text {
-  z-index: -10;
-  font-size: 400px;
+  z-index: 0;
+  font-size: 55vh;
   color: rgba(190,190,190, 0.1);
   overflow: hidden;
   padding: 0;
@@ -198,4 +198,15 @@ ul> li:nth-child(n) {
   top: 0;
   left: -50px;
   position: absolute;
+  display: inline;
+}
+
+.app-partner {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+}
+.app-partner:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  filter: brightness(110%);
 }
