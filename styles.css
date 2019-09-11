@@ -29,23 +29,24 @@ a:hover {
   transition: .2s ease-in
 }
 .app-button, a.app-button {
-  border: 1px solid #29b574;
-  color: #29b574;
+  border: 2px solid white;
+  color: white;
   background-color: transparent;
   transition: .2s ease-in
 
 }
 .app-button:hover, a.app-button:hover{
   background-color: transparent;
-  color: black;
-  border: 1px solid black;
+  color: #29b574;
+  border: 2px solid #29b574;
 }
 
 .app-button-primary, a.app-button-primary {
   background-color: #29b574;
   color: #fff;
   border: transparent;
-  transition: .2s ease-in
+  transition: .2s ease-in;
+  border: 2px solid #29b574;;
 }
 .app-button-primary:hover, a.app-button-primary:hover{
   filter: brightness(115%);
