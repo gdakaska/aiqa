@@ -211,3 +211,11 @@ ul> li:nth-child(n) {
   transform: scale(1.1);
   filter: brightness(110%);
 }
+
+
+.footer-euro{ 
+  background-color: #FFFFFF;
+}
+.footer-euro img {
+  height: 70px;
+}
